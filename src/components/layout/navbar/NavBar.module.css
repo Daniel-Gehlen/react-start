@@ -18,8 +18,8 @@
   margin: 2px 0; /* Ajusta a margem vertical para espaçar os botões */
   writing-mode: vertical-lr; /* Define a orientação da escrita vertical para a direita */
   text-decoration: ltr;  cursor: pointer; /* Altera o cursor ao passar por cima para indicar que é clicável */
-  padding: 8px; /* Adicione algum preenchimento interno para torná-lo mais clicável */
-  background-color: #0074d9; /* Cor de fundo */
+  padding: 10px; /* Adicione algum preenchimento interno para torná-lo mais clicável */
+  background-color: hsl(208, 100%, 43%); /* Cor de fundo */
   color: #fff; /* Cor do texto */
   border: 1px solid #fff; /* Adicione uma borda sólida branca */
   border-radius: 4px; /* Cantos arredondados */
@@ -30,9 +30,13 @@
 .NavItem:hover {
   background-color: #0056b3; /* Cor de fundo ao passar por cima */
   transform: scale(1.1); /* Efeito de escala ao passar por cima */
+  color: #fff; /* Cor do texto */
+
 }
 
 /* Remova a borda do último botão para evitar uma borda extra no final */
 .NavItem:last-child {
   border: none;
+  color: #fff; /* Cor do texto */
+
 }
