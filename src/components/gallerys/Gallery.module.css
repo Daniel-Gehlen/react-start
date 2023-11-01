@@ -1,0 +1,8 @@
+/* Gallery.module.css */
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards se ajustem automaticamente à largura da galeria */
+    justify-content: space-between;
+    margin: 0 20px; /* Adicione margem nas laterais da galeria */
+    max-width: 1200px; /* Defina um tamanho máximo para a galeria */
+  }

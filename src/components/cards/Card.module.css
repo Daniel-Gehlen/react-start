@@ -1,0 +1,42 @@
+/* Card.module.css */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    display: inline-block;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    transition: transform 0.2s;
+  
+    /* Ajuste as cores de texto e link conforme necessário */
+    color: #333;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .card a {
+    color: #0070f3; /* Cor do link */
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .card a:hover {
+    color: #0366d6; /* Cor do link no hover */
+  }
+  
+  /* Outras classes de estilo para botões, ícones, etc. podem ser adicionadas conforme necessário */
+  

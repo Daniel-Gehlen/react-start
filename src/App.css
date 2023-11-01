@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+ul {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+/* styles.css */
+button {
+  background-color: #007BFF; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border: none; /* Sem borda */
+  border-radius: 4px; /* Borda arredondada */
+  padding: 10px 20px; /* Espaçamento interno */
+  cursor: pointer; /* Ícone de cursor de mão */
+  font-size: 16px; /* Tamanho da fonte */
+  transition: background-color 0.3s; /* Transição suave da cor de fundo */
+
+  /* Adicione outros estilos modernos desejados */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
