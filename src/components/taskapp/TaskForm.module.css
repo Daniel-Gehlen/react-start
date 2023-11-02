@@ -1,0 +1,19 @@
+/* Estilos para o botão Adicionar Tarefa */
+.add-task-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-task-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-input {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+  }
+  

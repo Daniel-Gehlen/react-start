@@ -1,0 +1,29 @@
+/* TaskList.module.css */
+.taskList {
+  /* Estilos para o componente de lista de tarefas */
+}
+
+.taskList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskList li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000; /* Define a cor do texto das tarefas não completas como preto (#000) */
+}
+
+.taskList input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.taskList .completed {
+  text-decoration: line-through;
+  color: #aaa;
+}

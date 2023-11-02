@@ -1,0 +1,21 @@
+/* Estilo moderno para o corpo do aplicativo */
+.TaskApp {
+    font-family: 'Roboto', sans-serif;
+    background-color: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para o cabeçalho */
+  .TaskHeader {
+    background-color: #282c34;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .TaskTitle {
+    font-size: 32px;
+    margin: 0;
+  }
+  

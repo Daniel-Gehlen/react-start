@@ -1,5 +1,4 @@
 import React from 'react';
-import Avatar from '../avatars/Avatar';
 import Card from '../cards/Card';
 
 export default function Profile(props) {
@@ -9,20 +8,14 @@ export default function Profile(props) {
   return (
     <div>
       <h2>Profiles</h2>
-      <Card name="Aklilu Lemma">
-        <Avatar
-          person={{
-            name: 'Aklilu Lemma',
-            imageId: 'OKS67lh'
-          }}
-        />
-      </Card>
-      <Card name="Lin Lanying">
-        <Avatar
-          person={{
-            name: 'Lin Lanying',
-            imageId: '1bX5QH6'
-          }}
+      <Card>
+        <h1>Photo</h1>
+        <img
+          className="avatar"
+          src="https://i.imgur.com/OKS67lhm.jpg"
+          alt="Aklilu Lemma"
+          width={70}
+          height={70}
         />
       </Card>
     </div>

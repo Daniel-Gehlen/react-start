@@ -1,11 +1,11 @@
 import React from 'react';
-import Profile from '../../profiles/Profiles';
+import TaskApp from '../../taskapp/TaskApp'
 
 function Section6() {
 
     return (
         <div>
-           <Profile />
+           <TaskApp />
         </div>
     );
 }

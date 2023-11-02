@@ -28,8 +28,8 @@ function Navbar() {
     <Link to="/section5" style={linkStyle}>MirrorButton</Link>
   </div>
   <div className={styles.NavItem}>
-    <Link to="/section6" style={linkStyle}>Profiles</Link>
-  </div>
+    <Link to="/section6" style={linkStyle}>TaskApp</Link>
+  </div> 
   <div className={styles.NavItem}>
     <Link to="/section7" style={linkStyle}>ToDoLists</Link>
   </div>
