@@ -18,6 +18,7 @@ import Section10 from './components/layout/navbar/Section10';
 import Section11 from './components/layout/navbar/Section11';
 import { Section12 } from './components/layout/navbar/Section12';
 import { Section13 } from './components/layout/navbar/Section13';
+
 import Footer from './components/layout/navbar/Footer';
 
 
