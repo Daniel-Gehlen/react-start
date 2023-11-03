@@ -40,10 +40,16 @@ function Navbar() {
     <Link to="/section9" style={linkStyle}>ShopingList</Link>
   </div>
   <div className={styles.NavItem}>
-    <Link to="/section10" style={linkStyle}>TicTac</Link>
+    <Link to="/section10" style={linkStyle}>GameTicTac</Link>
   </div>
   <div className={styles.NavItem}>
     <Link to="/section11" style={linkStyle}>FilterableProducts</Link>
+  </div>
+  <div className={styles.NavItem}>
+    <Link to="/section12" style={linkStyle}>Form</Link>
+  </div>
+  <div className={styles.NavItem}>
+    <Link to="/section13" style={linkStyle}>GameWords</Link>
   </div>
 </div>
 

@@ -1,5 +1,8 @@
+
 import { useState } from "react";
 import Board from './Board';
+import Future1 from '../../assets/Future1.png'; // Use '../../' para subir dois níveis no diretório
+
 
 export default function Game() {
   const [history, setHistory] = useState([Array(9).fill(null)]);
@@ -32,13 +35,14 @@ export default function Game() {
 
   return (
       <div className="game">
-      <h2>Tic Tac Toe</h2>
-      <div className="game-board">
-        <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
+      <img src={Future1} alt="Future1" />
+        <h2>Tic Tac Toe</h2>
+        <div className="game-board">
+          <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
+        </div>
+        <div className="game-info">
+          <ol>{moves}</ol>
+        </div>
       </div>
-      <div className="game-info">
-        <ol>{moves}</ol>
-      </div>
-    </div>
   );
 }

@@ -16,6 +16,9 @@ import Section8 from './components/layout/navbar/Section8';
 import Section9 from './components/layout/navbar/Section9';
 import Section10 from './components/layout/navbar/Section10';
 import Section11 from './components/layout/navbar/Section11';
+import { Section12 } from './components/layout/navbar/Section12';
+import { Section13 } from './components/layout/navbar/Section13';
+
 
 
 
@@ -40,6 +43,8 @@ function App() {
               <Route path="/section9" element={<Section9 />} />
               <Route path="/section10" element={<Section10 />} />
               <Route path="/section11" element={<Section11 />} />
+              <Route path="/section12" element={<Section12 />} />
+              <Route path="/section13" element={<Section13 />} />
             </Routes>
           </div>
           <img src={logo} className="App-logo" alt="logo" />

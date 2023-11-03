@@ -1,3 +1,6 @@
+import './Game.css'; // Importe um arquivo CSS para estilização
+
+
 import Square from './Square';
 import CalculateWinner from './CalculateWinner';
 
