@@ -15,10 +15,13 @@
     padding: 1.5em;
     border: 20px solid #ecfa00;
     display: flex;
+    justify-content: center; /* Centraliza horizontalmente os elementos */
+
   }
   
   .letter,
   .blankSquare {
+
     font-size: 70px;
     line-height: 1.5;
     border: 3px solid #000;
@@ -47,3 +50,21 @@
     text-align: center;
     margin-right: 1em;
   }
+
+/* Em telas menores, ajuste o layout usando Flexbox */
+@media (max-width: 768px) {
+  .wordContainer {
+    margin: 0.5em;
+    padding: 0.5em;
+    flex-direction: row; /* Coloque os elementos verticalmente */
+    align-items: center; /* Centralize os elementos verticalmente */
+    padding: 0.5em; /* Reduza o preenchimento para se ajustar à tela menor */
+    border: 10px solid #ecfa00; /* Reduza a largura da borda para se ajustar à tela menor */
+  }
+
+  .letter, .blankSquare {
+    font-size: 2em; /* Use unidades relativas (vw) para ajustar o tamanho de acordo com a tela */
+    height: 10vw; /* Ajuste a altura com base na largura da letra */
+    width: 10vw; /* Ajuste a largura com base na largura da letra */
+  }
+}
