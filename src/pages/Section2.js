@@ -1,5 +1,5 @@
 import React from 'react';
-import Clock from '../../clocks/Clock'; // O caminho relativo pode variar dependendo da estrutura do seu projeto
+import Clock from '../components/clocks/Clock'; // O caminho relativo pode variar dependendo da estrutura do seu projeto
 
 function Section2() {
   return (

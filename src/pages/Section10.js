@@ -1,12 +1,12 @@
 import React from 'react';
-import Game from '../../tictactoe/Game';
+import Game from '../components/tictactoe/Game';
 
 
 function Section10() {
 
     return (
         <div>
-           <Game />
+            <Game />
         </div>
     );
 }

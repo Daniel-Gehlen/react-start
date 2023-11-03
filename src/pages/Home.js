@@ -1,5 +1,5 @@
 import React from 'react';
-import Greeting from '../../greetings/Greeting';
+import Greeting from '../components/greetings/Greeting';
 
 
 function Home() {

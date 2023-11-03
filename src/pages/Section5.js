@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import MirrorButton from '../../buttons/MirrorButton';
+import MirrorButton from '../components/buttons/MirrorButton';
 
 function Section5() {
     const [count, setCount] = useState(0);
 
     function handleClick() {
-      setCount(count + 1);
+        setCount(count + 1);
     }
 
     return (

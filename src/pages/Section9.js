@@ -1,12 +1,12 @@
 import React from 'react';
-import ShoppingList from '../../shoppinglists/ShoppingList';
+import ShoppingList from '../components/shoppinglists/ShoppingList';
 
 
 function Section9() {
 
     return (
         <div>
-           <ShoppingList />
+            <ShoppingList />
         </div>
     );
 }

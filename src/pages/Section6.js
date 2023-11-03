@@ -1,11 +1,11 @@
 import React from 'react';
-import TaskApp from '../../taskapp/TaskApp'
+import TaskApp from '../components/taskapp/TaskApp'
 
 function Section6() {
 
     return (
         <div>
-           <TaskApp />
+            <TaskApp />
         </div>
     );
 }

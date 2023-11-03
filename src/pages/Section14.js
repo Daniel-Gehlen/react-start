@@ -1,5 +1,5 @@
 import React from 'react'
-import EnterProductsApp from '../../enterproducts/EnterProductsApp'
+import EnterProductsApp from '../components/enterproducts/EnterProductsApp'
 
 export const Section14 = () => {
   return (

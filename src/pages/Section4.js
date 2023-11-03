@@ -1,10 +1,10 @@
 import React from 'react';
-import Gallery from '../../gallerys/Gallery';
+import Gallery from '../components/gallerys/Gallery';
 
 function Section4() {
   return (
     <div>
-        <Gallery />
+      <Gallery />
     </div>
   );
 }

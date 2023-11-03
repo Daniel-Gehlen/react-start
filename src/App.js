@@ -4,22 +4,22 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Im
 import './App.css';
 import logo from './logo.svg';
 
-import Navbar from './components/layout/navbar/NavBar';
-import Home from './components/layout/navbar/Home';
-import Section2 from './components/layout/navbar/Section2';
-import Section3 from './components/layout/navbar/Section3';
-import Section4 from './components/layout/navbar/Section4';
-import Section5 from './components/layout/navbar/Section5';
-import Section6 from './components/layout/navbar/Section6';
-import Section7 from './components/layout/navbar/Section7';
-import Section8 from './components/layout/navbar/Section8';
-import Section9 from './components/layout/navbar/Section9';
-import Section10 from './components/layout/navbar/Section10';
-import Section11 from './components/layout/navbar/Section11';
-import { Section12 } from './components/layout/navbar/Section12';
-import { Section13 } from './components/layout/navbar/Section13';
+import Navbar from './components/layout/NavBar';
+import Home from './pages/Home';
+import Section2 from './pages/Section2';
+import Section3 from './pages/Section3';
+import Section4 from './pages/Section4';
+import Section5 from './pages/Section5';
+import Section6 from './pages/Section6';
+import Section7 from './pages/Section7';
+import Section8 from './pages/Section8';
+import Section9 from './pages/Section9';
+import Section10 from './pages/Section10';
+import Section11 from './pages/Section11';
+import { Section12 } from './pages/Section12';
+import { Section13 } from './pages/Section13';
 
-import Footer from './components/layout/navbar/Footer';
+import Footer from './pages/Footer';
 
 
 
@@ -54,7 +54,7 @@ function App() {
         <Footer />
       </div>
     </Router>
-   );
+  );
 }
 
 export default App;
